@@ -233,79 +233,8 @@ The project uses the following technologies:
 | ResNet18 | Spatial feature extraction |
 | GRU | Temporal sequence modeling |
 
-## 10. Repository Structure
 
-The following is a suggested repository organization. Update it to match the actual files in your repository.
-
-```text
-shoplifting-detection/
-│
-├── notebooks/
-│   ├── Week_5_CNN_BiGRU.ipynb
-│   └── Week_6_VideoMAE.ipynb
-│
-├── src/
-│   ├── preprocessing/
-│   │   ├── video_sampling.py
-│   │   └── video_decoding.py
-│   │
-│   ├── models/
-│   │   ├── cnn_bigru.py
-│   │   └── videomae.py
-│   │
-│   └── evaluation/
-│       └── metrics.py
-│
-├── outputs/
-│   ├── figures/
-│   ├── metrics/
-│   └── checkpoints/
-│
-├── requirements.txt
-├── README.md
-└── .gitignore
-```
-
-## 11. Installation
-
-Clone the repository:
-
-```bash
-git clone <YOUR_REPOSITORY_URL>
-cd shoplifting-detection
-```
-
-Create a virtual environment:
-
-```bash
-python -m venv venv
-```
-
-Activate it on Windows:
-
-```bash
-venv\Scripts\activate
-```
-
-Install dependencies:
-
-```bash
-pip install -r requirements.txt
-```
-
-For GPU training, install a PyTorch version compatible with your CUDA environment.
-
-## 12. Running the Project
-
-The main experiments are organized in Jupyter notebooks.
-
-1. Open the Week 5 notebook to explore the CNN-BiGRU baseline.
-2. Open the Week 6 notebook to explore the improved preprocessing pipeline and VideoMAE experiments.
-3. Configure the dataset paths and model settings according to your environment.
-4. Run the notebook cells sequentially.
-
-
-## 13. Limitations and Future Improvements
+## 11. Limitations and Future Improvements
 
 Potential future directions include:
 
@@ -318,7 +247,7 @@ Potential future directions include:
 - Optimizing VideoMAE for lower inference latency.
 - Investigating real-time video inference and deployment.
 
-## 14. Conclusion
+## 12. Conclusion
 
 This project explores two deep learning approaches for video-based shoplifting detection.
 
